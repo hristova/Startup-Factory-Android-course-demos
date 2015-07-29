@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f00"
+        android:text="TextView1 is 20% wide"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#0f0"
+        android:layout_weight="3"
+        android:text="TextView2 is bigger: 60% wide"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#00f"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="TextView3 is this wide"/>
+
+</LinearLayout>
